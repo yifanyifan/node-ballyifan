@@ -1,31 +1,25 @@
 {
-  "name": "ball",
-  "version": "0.1.0",
-  "description": "MongoDB ODM",
-  "main": "./src/index.js",
+  "name": "node-ballyifan",
+  "version": "0.0.4",
+  "description": "A Steve Ballyifan stream",
+  "main": "ballyifan.js",
   "scripts": {
-    "test": "mocha --compilers js:babel/register --require test/support/node",
-    "prepublish": "babel -d lib/ src/"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/nkt/node-ballyifan.git"
+    "url": "https://github.com/yifanyifan/node-ballyifan"
   },
-  "author": "Nikita Gusakov",
+  "keywords": [
+    "node",
+    "steve",
+    "ballyifan",
+    "DEVELOPERS"
+  ],
+  "author": "yifanyifan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nkt/node-ballyifan/issues"
+    "url": "https://github.com/yifanyifan/node-ballyifan/issues"
   },
-  "homepage": "https://github.com/nkt/node-ballyifan#readme",
-  "dependencies": {
-    "bluebird": "^2.9.25",
-    "mongodb": "^2.0.28",
-    "pluralize": "^1.1.2"
-  },
-  "devDependencies": {
-    "babel": "^5.2.13",
-    "mocha": "^2.2.4",
-    "chai": "^2.3.0",
-    "chai-as-promised": "^5.0.0"
-  }
+  "homepage": "https://github.com/yifanyifan/node-ballyifan"
 }

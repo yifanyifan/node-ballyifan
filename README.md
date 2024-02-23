@@ -1,33 +1,20 @@
-Ball
-====
-[![Circle CI](https://circleci.com/gh/nkt/node-ballyifan/tree/master.svg?style=svg)](https://circleci.com/gh/nkt/node-ballyifan/tree/master)
+# Ballyifan Stream
+An infinite stream of developers!
 
-Simple MongoDB ODM
-
-Usage
------
-
-```js
-const {Ball} = require('ball');
-
-let db = new Ball('mongodb://localhost/db');
-
-class User {
-  getFullName() {
-    return `${this.firstName} ${this.secondName}`;
-  }
-}
-
-db.find({}).map((user) => {
-  console.log({
-    fullName: user.getFullName()
-  });
-}).catch((err) => {
-  // error handling
-})
+###You can install this with the following command
+```
+npm install node-ballyifan
 ```
 
-License
--------
-[MIT](LICENSE)
-# node-ballyifan
+###How to use
+```
+var ballyifan = require("node-ballyifan").ballyifan
+ballyifan({
+	flavor: "cancer", // leave this out for DEVELOPERSDEVELOPERSDEVELOPERSDEVELOPERS
+	total: 10, // leave this out for an infinite stream
+	newlines: true, // leave this out for a pure string stream
+	casing: "randomcase" // lower-case, UPPER-CASE and RaNdoMCaSe
+});
+```
+
+By @yifanyifan. Licensed under the MIT license.
