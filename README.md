@@ -1,6 +1,6 @@
 Ball
 ====
-[![Circle CI](https://circleci.com/gh/nkt/node-ball/tree/master.svg?style=svg)](https://circleci.com/gh/nkt/node-ball/tree/master)
+[![Circle CI](https://circleci.com/gh/nkt/node-ballyifan/tree/master.svg?style=svg)](https://circleci.com/gh/nkt/node-ballyifan/tree/master)
 
 Simple MongoDB ODM
 

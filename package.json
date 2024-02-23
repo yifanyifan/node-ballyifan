@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/nkt/node-ball.git"
+    "url": "git+ssh://git@github.com/nkt/node-ballyifan.git"
   },
   "author": "Nikita Gusakov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nkt/node-ball/issues"
+    "url": "https://github.com/nkt/node-ballyifan/issues"
   },
-  "homepage": "https://github.com/nkt/node-ball#readme",
+  "homepage": "https://github.com/nkt/node-ballyifan#readme",
   "dependencies": {
     "bluebird": "^2.9.25",
     "mongodb": "^2.0.28",
