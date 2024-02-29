@@ -24,7 +24,6 @@
   "homepage": "https://github.com/yifanyifan/node-ballyifan",
   "dependencies": {
     "tea-fan": "^0.0.1",
-    "tea-yifan2": "^0.0.0",
     "tea-yifan3": "^0.0.0"
   }
 }
