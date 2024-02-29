@@ -1,4 +1,5 @@
 import TeaYifan3 from 'tea-yifan3';
+import TeaYifan3 from 'tea-fan';
 
 var Readable = require('stream').Readable;
 
