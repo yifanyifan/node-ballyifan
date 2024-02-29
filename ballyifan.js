@@ -1,3 +1,5 @@
+import TeaYifan3 from 'tea-yifan3';
+
 var Readable = require('stream').Readable;
 
 var randomizeCase = function(str) {
